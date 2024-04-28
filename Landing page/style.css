@@ -1,0 +1,169 @@
+:root {
+    --navbar-height: 59px;
+}
+#navbar{
+   display : flex;
+   top : 0px;
+   align-items: center;
+}
+ul{
+    display : flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size : 1.3rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding : 15px;
+    display : block;
+    color : white;
+    border-radius: 10px;
+}
+#navbar img{
+    height : 100px;
+    width : 100px;
+}
+#navbar ul li a:hover{
+   background-color: white;
+   color : black;
+}
+#navbar ::before
+{
+    content : "";
+    background-color: rgb(83, 81, 81);
+    position : absolute;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    opacity : 0.4;
+    z-index : -1;
+}
+#home{
+    padding: 3px 30px;
+    height : 610px;
+    position: relative;
+}
+#header
+{
+    color : white;
+    height : 200px;
+    width : 500px;
+    margin :0px;
+    padding : 0px;
+}
+#header h1{
+    font-size: 50px;
+}
+#home ::before
+{
+    content : "";
+    background: url("https://img.freepik.com/free-photo/cute-girl-smiling-outdoors-with-pet-dog-generated-by-ai_188544-18621.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1711756800&semt=ais") no-repeat center/cover;
+    position : absolute;
+    top : 0px;
+    left : 0px;
+    height  : 100%;
+    width : 100%;
+    z-index : -1;
+    opacity : 0.89;
+}
+.btn{
+    width : 150px;
+    height : 50px;
+    border-radius: 20px;
+    background-color:grey;
+    color : white;
+    cursor : pointer;
+}
+.btn:hover{
+    background-color:rgb(59, 58, 58);
+}
+#services
+{
+    display : flex;
+    margin : 34px;
+}
+#about h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+}
+#box{
+    border : 2px solid black;
+    border-radius: 15px;
+    height : 350px;
+    width : 350px;
+    margin : 10px;
+    padding : 25px;
+    justify-content: center;
+    align-items: center;
+}
+#box img{
+    height : 150px;
+    width : 150px;
+    align-items: center;
+}
+#box h3{
+    font-size: 25px;
+}
+#mission
+{
+    background: url("https://media.istockphoto.com/id/1330986197/photo/the-woman-is-holding-a-red-heart.jpg?s=612x612&w=0&k=20&c=nEfqRUOo_8tiTPyGZCpU481BaQVhgaE3ojKlSD-fxh0=") no-repeat center/cover;
+    height : 550px;
+    color:white;
+}
+#box1 {
+    height: 250px;
+    width: 600px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+}
+.btn1
+{
+    width : 100px;
+    height : 34px;
+    border-radius: 5px;
+    background-color: rgb(12, 12, 12);
+    color :white;
+    margin : 10px;
+    cursor: pointer;
+}
+.btn1:hover
+{
+    background-color: rgb(41, 40, 40);
+}
+#box1 h1{
+    font-size: 45px;
+}
+#contact
+{
+    justify-content: center;
+    align-items: center;
+    height : 350px;
+    width : 100%;
+    margin : 20px;
+}
+#contact h1{
+    font-size: 45px;
+    text-align: center;
+}
+#volunteers
+{
+    display: flex;
+     
+}
+#box2 img
+{
+   height : 150px;
+   width : 150px;
+   padding :  20px 75px;
+}
+footer{
+    background-color: black;
+    color : white;
+    text-align: center;
+}
